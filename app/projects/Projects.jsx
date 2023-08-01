@@ -51,14 +51,7 @@ export function Projects ({ project }) {
               {
                 project.modal.link === ''
                   ? ''
-                  : <a
-                      href={project.modal.link}
-                      target='_blank'
-                      rel='noopener noreferrer'
-                      aria-label={project.title}
-                      className='font-bold cursor-pointer  text-black'
-                    >Deploy
-                  </a>
+                  : <a href={project.modal.link} target='_blank' rel='noopener noreferrer' aria-label={project.title} className='font-bold cursor-pointer  text-black'>Deploy</a>
               }
             </div>
           </div>

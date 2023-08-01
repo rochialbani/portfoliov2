@@ -3,7 +3,7 @@ import moviesearch1 from '@/assets/moviesearch1.png'
 import tictactoe1 from '@/assets/tictactoe1.png'
 import pidogs1 from '@/assets/pidogs1.png'
 import mangacoffee1 from '@/assets/mangacoffee1.png'
-import portfolio1 from '@/assets/portfolio1.png'
+// import portfolio1 from '@/assets/portfolio1.png'
 
 export const projects = [
   {
