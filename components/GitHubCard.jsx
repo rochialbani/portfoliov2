@@ -8,7 +8,7 @@ export function GitHubCard () {
       target='_blank'
       rel='noopener noreferrer'
       aria-label='GitHub'
-      className='relative rounded-3xl col-span-2 md:aspect-auto overflow-hidden cursor-pointer hover:scale-[103%] transition duration-300 ease-in-out'
+      className='relative rounded-3xl col-span-1 md:col-span-2 md:aspect-auto overflow-hidden cursor-pointer hover:scale-[103%] transition duration-300 ease-in-out'
     >
 
       <div className='absolute w-full h-full'>

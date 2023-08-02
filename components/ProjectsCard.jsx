@@ -7,7 +7,7 @@ export function ProjectsCard () {
     <Link
       href='/projects'
       scroll={false}
-      className='relative rounded-3xl col-span-2 md:aspect-auto overflow-hidden hover:scale-[103%] transition duration-500 ease-in-out'
+      className='relative rounded-3xl col-span-1 md:col-span-2 md:aspect-auto overflow-hidden hover:scale-[103%] transition duration-500 ease-in-out'
     >
 
       <div className=' w-full h-full absolute top-0 left-0 text-white p-4 md:p-8 z-10 pointer-events-none'>

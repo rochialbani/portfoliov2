@@ -65,10 +65,10 @@ export function Projects ({ project }) {
     <main
       key={project.id}
       onClick={() => setShowAllPhotos(true)}
-      className=' flex flex-col cursor-pointer w-[320px] h-[350px] justify-between hover:scale-[103%] transition duration-300 ease-in-out'
+      className=' flex flex-col cursor-pointer col-span-1 aspect-square lg:pb- justify-between hover:scale-[103%] transition duration-300 ease-in-out'
     >
 
-      <Image src={project.image} alt={project.title} className=' h-[240px] w-full rounded-2xl dark:p-1 bg-[#ffffffaa]' />
+      <Image src={project.image} alt={project.title} className=' h-[240px] lg:h-full w-full mb-4 rounded-2xl dark:p-1 bg-[#ffffffaa]' />
 
       <div style={{ backgroundColor: project.color }} className=' w-full h-[70px] mb-8 rounded-2xl'>
         <h1 className='flex justify-center items-center m-1 rounded-lg font-bold  text-black'>{project.title}</h1>
@@ -88,6 +88,8 @@ export function Projects ({ project }) {
     </main>
   )
 }
+
+// className=' flex flex-col cursor-pointer w-[180px] h-[250px] mr-5 ml-5 md:w-[320px] md:h-[350px] justify-between hover:scale-[103%] transition duration-300 ease-in-out'
 
 /**
  * <main
