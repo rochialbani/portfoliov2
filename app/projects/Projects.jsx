@@ -65,24 +65,25 @@ export function Projects ({ project }) {
     <main
       key={project.id}
       onClick={() => setShowAllPhotos(true)}
-      className=' flex flex-col cursor-pointer col-span-1 aspect-square lg:pb- justify-between hover:scale-[103%] transition duration-300 ease-in-out'
+      className=' flex flex-col cursor-pointer aspect-auto mb-5 justify-between hover:scale-[103%] transition duration-300 ease-in-out'
     >
 
-      <Image src={project.image} alt={project.title} className=' h-[240px] lg:h-full w-full mb-4 rounded-2xl dark:p-1 bg-[#ffffffaa]' />
+      <div>
+        <Image src={project.image} alt={project.title} className=' h-[240px]  w-[90%] mb-4 rounded-2xl dark:p-1 bg-[#ffffffaa]' />
 
-      <div style={{ backgroundColor: project.color }} className=' w-full h-[70px] mb-8 rounded-2xl'>
-        <h1 className='flex justify-center items-center m-1 rounded-lg font-bold  text-black'>{project.title}</h1>
-        <div className='flex justify-center items-center mt-3 gap-2 w-full h-4 '>
-          {project.skills.slice(0, 3).map((skill, index) => (
-            <p
-              key={index}
-              style={{ backgroundColor: project.skillscolor }}
-              className='flex justify-center items-center font-semibold text-black  bg-green-200 text-xs md:text-md py-1 px-2 md:px-4 rounded-3xl'
-            >
-              {skill}
-            </p>
-          ))}
-
+        <div style={{ backgroundColor: project.color }} className=' w-[90%] h-[70px]  rounded-2xl'>
+          <h1 className='flex justify-center items-center m-1 rounded-lg font-bold  text-black'>{project.title}</h1>
+          <div className='flex justify-center items-center mt-3 gap-2 w-full h-4 '>
+            {project.skills.slice(0, 3).map((skill, index) => (
+              <p
+                key={index}
+                style={{ backgroundColor: project.skillscolor }}
+                className='flex justify-center items-center font-semibold text-black  bg-green-200 text-xs md:text-md py-1 px-2 md:px-4 rounded-3xl'
+              >
+                {skill}
+              </p>
+            ))}
+          </div>
         </div>
       </div>
     </main>
