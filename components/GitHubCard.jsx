@@ -13,7 +13,7 @@ export function GitHubCard () {
 
       <div className='absolute w-full h-full'>
         <Image
-          src={computerimg} alt='computer image' fill='true' sizes='100px' className=' w-full h-full object-cover opacity-60'
+          src={computerimg} alt='computer image' fill='true' sizes='100px' className=' w-full h-full opacity-60'
         />
 
         <svg className='absolute right-4 bottom-4 top-auto md:right-6 md:top-6 w-4 h-4 text-white dark:text-[#ffffffaa]' xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 18 18'>
@@ -22,7 +22,7 @@ export function GitHubCard () {
         </svg>
 
       </div>
-      <div className='absolute top-[110px] left-6 text-white dark:text-[#ffffffaa] font-bold text-md md:text-xl lg:text-5xl'>
+      <div className='absolute top-4 left-2 sm:top-[80px] lg:top-[110px] md:left-6 text-white dark:text-[#ffffffaa] font-bold text-md md:text-xl lg:text-5xl'>
         GitHub
       </div>
     </a>

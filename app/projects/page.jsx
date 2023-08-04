@@ -9,20 +9,20 @@ function page () {
     <div className='relative w-full'>
       <div className='noise bg-noise absolute opacity-[0.08] dark:opacity-5' />
 
-      <div className='grid grid-cols-3 gap-2 xl:grid-cols-4  col-span-1 aspect-auto rounded-3xl mt-10 mr-7 ml-7 cursor-pointer p-4 shadow-xl xl:col-span-2'>
+      <div className='grid grid-cols-3 gap-2 xl:grid-cols-4  col-span-1 aspect-auto rounded-3xl mt-10 mr-7 ml-7 cursor-pointer p-4 shadow-xl'>
 
         <Link
           href='/'
           scroll={false}
           className='flex flex-col justify-center items-center bg-[#AB2838] dark:bg-[#B84656] rounded-3xl col-span-1 relative overflow-hidden aspect-square shadow-sm cursor-pointer hover:scale-[103%] transition duration-300 ease-in-out'
         >
-          <svg className='flex justify-center items-center absolute font-bold  text-white dark:text-[#ffffffaa] text-[110px]' fill='currentColor' viewBox='0 0 16 16' height='1em' width='1em'>
+          <svg className='flex justify-center items-center absolute font-bold  text-white dark:text-[#ffffffaa] text-[50px] sm:text-[110px]' fill='currentColor' viewBox='0 0 16 16' height='1em' width='1em'>
             <path fillRule='evenodd' d='M12 8a.5.5 0 01-.5.5H5.707l2.147 2.146a.5.5 0 01-.708.708l-3-3a.5.5 0 010-.708l3-3a.5.5 0 11.708.708L5.707 7.5H11.5a.5.5 0 01.5.5z' />
           </svg>
         </Link>
 
         <div className='flex flex-col justify-center items-center bg-[#AB2838] dark:bg-[#B84656] rounded-3xl relative col-span-1 xl:col-span-2 aspect-auto overflow-hidden shadow-sm'>
-          <h1 className='flex justify-center items-center text-[25px] sm:text-[40px] md:text-[60px] lg:text-[70px] xl:text-[90px] font-semibold text-white dark:text-[#ffffffaa]'>Projects</h1>
+          <h1 className='flex justify-center items-center text-[13px] sm:text-[35px] md:text-[55px] lg:text-[65px] xl:text-[90px] font-semibold text-white dark:text-[#ffffffaa]'>Projects</h1>
         </div>
 
         <div className='flex flex-col rounded-3xl w-full h-full relative col-span-1 aspect-square'>

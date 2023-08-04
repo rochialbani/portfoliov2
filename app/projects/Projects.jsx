@@ -11,7 +11,7 @@ export function Projects ({ project }) {
       <div className='flex justify-center items-center fixed inset-0 bg-[#000000e0] text-white h-[100vh] overflow-hidden'>
 
         <div>
-          <button onClick={() => setShowAllPhotos(false)} className='fixed right-12 top-8 flex gap-1 py-2 px-4 rounded-2xl shadow shadow-black bg-white text-black'>
+          <button onClick={() => setShowAllPhotos(false)} className='fixed right-1 top-4 md:right-12 md:top-8 flex gap-1 py-2 px-4 rounded-2xl shadow shadow-black bg-white text-black'>
             <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' className='w-6 h-6'>
               <path fillRule='evenodd' d='M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z' clipRule='evenodd' />
             </svg>
@@ -19,7 +19,7 @@ export function Projects ({ project }) {
           </button>
         </div>
 
-        <div className=' w-[600px] min-h-[200px]  bg-white rounded-2xl'>
+        <div className='w-[300px] md:w-[600px] min-h-[200px]  bg-white rounded-2xl'>
           <div className='m-10'>
             <div className='flex justify-stretch items-stretch'>
               <h2 style={{ color: project.skillscolor }} className=' font-bold text-xl mr-48 mb-5'>{project.title}</h2><span className='text-black font-medium'>{project.modal.type}</span>
@@ -78,7 +78,7 @@ export function Projects ({ project }) {
               <p
                 key={index}
                 style={{ backgroundColor: project.skillscolor }}
-                className='flex justify-center items-center font-semibold text-black  bg-green-200 text-xs md:text-md py-1 px-2 md:px-4 rounded-3xl'
+                className='flex justify-center items-center font-semibold text-black  bg-green-200 text-xs md:text-md py-1 px-1 md:px-4 rounded-3xl'
               >
                 {skill}
               </p>
