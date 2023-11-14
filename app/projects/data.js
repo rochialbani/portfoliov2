@@ -3,11 +3,42 @@ import moviesearch1 from '@/assets/moviesearch1.png'
 import tictactoe1 from '@/assets/tictactoe1.png'
 import pidogs1 from '@/assets/pidogs1.png'
 import mangacoffee1 from '@/assets/mangacoffee1.png'
-// import portfolio1 from '@/assets/portfolio1.png'
+import searchsongs1 from '@/assets/searchsongs1.png'
+import rickandmorty1 from '@/assets/rickandmorty1.png'
 
 export const projects = [
   {
     id: 1,
+    image: searchsongs1,
+    color: '#E8C539',
+    modal: {
+      type: '/Practice',
+      description: 'A website I made in practice mode to search a song by its name or by the artist, connected to a REST API. Additionally, you can view the details of each song.',
+      link: 'https://search-songs.vercel.app/',
+      githublink: 'https://github.com/rochialbani/search-songs'
+    },
+
+    title: 'SEARCH SONGS ',
+    skillscolor: '#E5A836',
+    skills: ['Javascript', 'React', 'Tailwind Css']
+  },
+  {
+    id: 2,
+    image: rickandmorty1,
+    color: '#BBDAF2',
+    modal: {
+      type: '/Practice',
+      description: 'A website I made in practice mode to search Rick and Morty characters, connected to a REST API. It has the particularity that the search is done automatically while typing',
+      link: 'https://rickandmorty-rochialbani.vercel.app/',
+      githublink: 'https://github.com/rochialbani/rickandmorty'
+    },
+
+    title: 'RICK AND MORTY ',
+    skillscolor: '#65B8BF',
+    skills: ['Javascript', 'React', 'Tailwind Css']
+  },
+  {
+    id: 3,
     color: '#EFA18A',
     modal: {
       type: '/Practice',
@@ -22,7 +53,7 @@ export const projects = [
     skills: ['JavaScript', 'React', 'CSS']
   },
   {
-    id: 2,
+    id: 4,
     image: moviesearch1,
     color: '#97E589',
     modal: {
@@ -37,7 +68,7 @@ export const projects = [
 
   },
   {
-    id: 3,
+    id: 5,
     image: tictactoe1,
     color: '#BE8CE5',
     modal: {
@@ -52,7 +83,7 @@ export const projects = [
     skills: ['JavaScript', 'React', 'CSS']
   },
   {
-    id: 4,
+    id: 6,
     image: pidogs1,
     color: '#F7BAD3',
     modal: {
@@ -68,7 +99,7 @@ export const projects = [
 
   },
   {
-    id: 5,
+    id: 7,
     image: mangacoffee1,
     color: '#EFBA97',
     modal: {
@@ -82,20 +113,5 @@ export const projects = [
     skillscolor: 'rgb(251 146 60 / var(--tw-bg-opacity))',
     skills: ['Typescript', 'React', 'Redux Toolkit', 'Sass']
   }
-  /* {
-    id: 6,
-    image: portfolio1,
-    color: '#BBDAF2',
-    modal: {
-      type: '/Practice',
-      description: 'portffolio Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      link: 'https://portfolio-rochialbani.vercel.app/',
-      githublink: 'https://github.com/rochialbani/portfolio'
-    },
-
-    title: 'PORTFOLIO ',
-    skillscolor: '#65B8BF',
-    skills: ['Javascript', 'React', 'Tailwind Css', 'Framer Motion']
-  } */
 
 ]
